@@ -25,9 +25,3 @@ First of all, to get everything set up
   1. brew update
   2. brew install postgresql
   3. bundle or gem install pg
-
-[https://stackoverflow.com/questions/13410686/postgres-could-not-connect-to-server](https://stackoverflow.com/questions/13410686/postgres-could-not-connect-to-server)
-2. rake aborted! PG::ConnectionBad: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "patrickchan" does not exist
-  1. postgres -D /usr/local/var/postgres -- it will give you a much more verbose output if postgres fails to start.
-  2. Run initdb or pg_basebackup to initialize a PostgreSQL data directory.
-  3. no use...
